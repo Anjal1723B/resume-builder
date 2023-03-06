@@ -1,0 +1,66 @@
+.drawerlogo {
+  width: 120px;
+  height: 30px;
+  margin: 14px 0px 8px -1px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mainlogo {
+  width: 130px;
+  height: 33px;
+  margin-top: 4px;
+  margin-left: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.toolbar-box {
+  display: flex;
+}
+
+.toolbar {
+  flex-grow: 1;
+}
+
+.box {
+  flex-grow: 1;
+}
+
+.navbar-btns {
+  display: flex;
+  justify-content: right;
+  padding: 16px 20px;
+}
+
+.btn {
+  color: black;
+  font-size: 15.9px;
+  text-transform: capitalize;
+  padding: 4px 8px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.btn:hover,
+.list-btn:hover {
+  color: rgb(44, 109, 230);
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.list-btn {
+  font-size: 17px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(44, 109, 230);
+}
